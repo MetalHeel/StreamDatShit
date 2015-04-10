@@ -92,14 +92,14 @@ module NgrokWrapper
 	end
 end
 
-#usage example
-ngrok_facade = NgrokWrapper::NgrokFacade.new(3001, 'logfile1.txt')
+# usage example
+# ngrok_facade = NgrokWrapper::NgrokFacade.new(3001, 'logfile1.txt')
 
-#starts ngrok
-ngrok_facade.start
+# starts ngrok
+# ngrok_facade.start
 
-#ngrok url
-puts ngrok_facade.url
+# ngrok url
+# p ngrok_facade.url
 
-#kills ngrok process
-ngrok_facade.finish
+# kills ngrok process
+# ngrok_facade.finish
